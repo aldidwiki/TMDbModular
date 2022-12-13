@@ -16,6 +16,9 @@
 		CE182AFE292F813800B5C857 /* MovieDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE182AFD292F813800B5C857 /* MovieDetailModel.swift */; };
 		CE182B00292F825B00B5C857 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE182AFF292F825B00B5C857 /* DetailInteractor.swift */; };
 		CE182B04292F831E00B5C857 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE182B03292F831E00B5C857 /* DetailPresenter.swift */; };
+		CE43B3EF2948601D00359B70 /* TMDbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43B3EE2948601D00359B70 /* TMDbTests.swift */; };
+		CE43B3FC2948602D00359B70 /* TMDbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43B3FB2948602D00359B70 /* TMDbUITests.swift */; };
+		CE43B3FE2948602D00359B70 /* TMDbUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43B3FD2948602D00359B70 /* TMDbUITestsLaunchTests.swift */; };
 		CE971C432931F53900C33D9C /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE971C422931F53900C33D9C /* EmptyView.swift */; };
 		CE9E30E129305B48001BFB57 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E30E029305B48001BFB57 /* HomeRouter.swift */; };
 		CE9E30E429305C15001BFB57 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E30E329305C15001BFB57 /* DetailView.swift */; };
@@ -47,6 +50,23 @@
 		CEEEDEE52931F7E800976696 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = CEEEDEE42931F7E800976696 /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CE43B3F02948601D00359B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC654D9292F5381007B393A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC654E0292F5381007B393A;
+			remoteInfo = TMDb;
+		};
+		CE43B3FF2948602D00359B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC654D9292F5381007B393A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC654E0292F5381007B393A;
+			remoteInfo = TMDb;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		CE068D4A2948145400EDA3D4 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -72,6 +92,11 @@
 		CE182AFD292F813800B5C857 /* MovieDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailModel.swift; sourceTree = "<group>"; };
 		CE182AFF292F825B00B5C857 /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
 		CE182B03292F831E00B5C857 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		CE43B3EC2948601D00359B70 /* TMDbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE43B3EE2948601D00359B70 /* TMDbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDbTests.swift; sourceTree = "<group>"; };
+		CE43B3F92948602D00359B70 /* TMDbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE43B3FB2948602D00359B70 /* TMDbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDbUITests.swift; sourceTree = "<group>"; };
+		CE43B3FD2948602D00359B70 /* TMDbUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDbUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CE971C422931F53900C33D9C /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		CE9E30E029305B48001BFB57 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		CE9E30E329305C15001BFB57 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -101,6 +126,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CE43B3E92948601D00359B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE43B3F62948602D00359B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEC654DE292F5381007B393A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -153,6 +192,23 @@
 				CE182B03292F831E00B5C857 /* DetailPresenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CE43B3ED2948601D00359B70 /* TMDbTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE43B3EE2948601D00359B70 /* TMDbTests.swift */,
+			);
+			path = TMDbTests;
+			sourceTree = "<group>";
+		};
+		CE43B3FA2948602D00359B70 /* TMDbUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE43B3FB2948602D00359B70 /* TMDbUITests.swift */,
+				CE43B3FD2948602D00359B70 /* TMDbUITestsLaunchTests.swift */,
+			);
+			path = TMDbUITests;
 			sourceTree = "<group>";
 		};
 		CE9E30DF29305B3A001BFB57 /* Router */ = {
@@ -227,6 +283,8 @@
 			children = (
 				CEEEDEE42931F7E800976696 /* .swiftlint.yml */,
 				CEC654E3292F5381007B393A /* TMDb */,
+				CE43B3ED2948601D00359B70 /* TMDbTests */,
+				CE43B3FA2948602D00359B70 /* TMDbUITests */,
 				CEC654E2292F5381007B393A /* Products */,
 				F5E09716B8E181FB7593171B /* Pods */,
 				7C77B88D6AB5A8DC60E7CDDE /* Frameworks */,
@@ -237,6 +295,8 @@
 			isa = PBXGroup;
 			children = (
 				CEC654E1292F5381007B393A /* TMDb.app */,
+				CE43B3EC2948601D00359B70 /* TMDbTests.xctest */,
+				CE43B3F92948602D00359B70 /* TMDbUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -404,6 +464,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CE43B3EB2948601D00359B70 /* TMDbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE43B3F42948601D00359B70 /* Build configuration list for PBXNativeTarget "TMDbTests" */;
+			buildPhases = (
+				CE43B3E82948601D00359B70 /* Sources */,
+				CE43B3E92948601D00359B70 /* Frameworks */,
+				CE43B3EA2948601D00359B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE43B3F12948601D00359B70 /* PBXTargetDependency */,
+			);
+			name = TMDbTests;
+			productName = TMDbTests;
+			productReference = CE43B3EC2948601D00359B70 /* TMDbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE43B3F82948602D00359B70 /* TMDbUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE43B4012948602D00359B70 /* Build configuration list for PBXNativeTarget "TMDbUITests" */;
+			buildPhases = (
+				CE43B3F52948602D00359B70 /* Sources */,
+				CE43B3F62948602D00359B70 /* Frameworks */,
+				CE43B3F72948602D00359B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE43B4002948602D00359B70 /* PBXTargetDependency */,
+			);
+			name = TMDbUITests;
+			productName = TMDbUITests;
+			productReference = CE43B3F92948602D00359B70 /* TMDbUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		CEC654E0292F5381007B393A /* TMDb */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEC654EF292F5382007B393A /* Build configuration list for PBXNativeTarget "TMDb" */;
@@ -442,6 +538,14 @@
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
+					CE43B3EB2948601D00359B70 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CEC654E0292F5381007B393A;
+					};
+					CE43B3F82948602D00359B70 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CEC654E0292F5381007B393A;
+					};
 					CEC654E0292F5381007B393A = {
 						CreatedOnToolsVersion = 14.1;
 					};
@@ -468,11 +572,27 @@
 			projectRoot = "";
 			targets = (
 				CEC654E0292F5381007B393A /* TMDb */,
+				CE43B3EB2948601D00359B70 /* TMDbTests */,
+				CE43B3F82948602D00359B70 /* TMDbUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CE43B3EA2948601D00359B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE43B3F72948602D00359B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEC654DF292F5381007B393A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -529,6 +649,23 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CE43B3E82948601D00359B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE43B3EF2948601D00359B70 /* TMDbTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE43B3F52948602D00359B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE43B3FC2948602D00359B70 /* TMDbUITests.swift in Sources */,
+				CE43B3FE2948602D00359B70 /* TMDbUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEC654DD292F5381007B393A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -564,7 +701,90 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		CE43B3F12948601D00359B70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC654E0292F5381007B393A /* TMDb */;
+			targetProxy = CE43B3F02948601D00359B70 /* PBXContainerItemProxy */;
+		};
+		CE43B4002948602D00359B70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC654E0292F5381007B393A /* TMDb */;
+			targetProxy = CE43B3FF2948602D00359B70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		CE43B3F22948601D00359B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV2Q92Y99P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aldidwiki.TMDbTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMDb.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TMDb";
+			};
+			name = Debug;
+		};
+		CE43B3F32948601D00359B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV2Q92Y99P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aldidwiki.TMDbTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMDb.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TMDb";
+			};
+			name = Release;
+		};
+		CE43B4022948602D00359B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV2Q92Y99P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aldidwiki.TMDbUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TMDb;
+			};
+			name = Debug;
+		};
+		CE43B4032948602D00359B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV2Q92Y99P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aldidwiki.TMDbUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TMDb;
+			};
+			name = Release;
+		};
 		CEC654ED292F5382007B393A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -742,6 +962,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CE43B3F42948601D00359B70 /* Build configuration list for PBXNativeTarget "TMDbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE43B3F22948601D00359B70 /* Debug */,
+				CE43B3F32948601D00359B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE43B4012948602D00359B70 /* Build configuration list for PBXNativeTarget "TMDbUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE43B4022948602D00359B70 /* Debug */,
+				CE43B4032948602D00359B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CEC654DC292F5381007B393A /* Build configuration list for PBXProject "TMDb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
