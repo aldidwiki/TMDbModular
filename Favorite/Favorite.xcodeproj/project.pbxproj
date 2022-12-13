@@ -22,8 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37668E4437B5DEA7259CDA70 /* Pods-Favorite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Favorite.debug.xcconfig"; path = "Target Support Files/Pods-Favorite/Pods-Favorite.debug.xcconfig"; sourceTree = "<group>"; };
-		3A3B2846D463EF993F8A8E41 /* Pods-Favorite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Favorite.release.xcconfig"; path = "Target Support Files/Pods-Favorite/Pods-Favorite.release.xcconfig"; sourceTree = "<group>"; };
+		37668E4437B5DEA7259CDA70 /* Pods-Favorite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Favorite.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-Favorite/Pods-Favorite.debug.xcconfig"; sourceTree = "<group>"; };
+		3A3B2846D463EF993F8A8E41 /* Pods-Favorite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Favorite.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-Favorite/Pods-Favorite.release.xcconfig"; sourceTree = "<group>"; };
 		CE068D32294813B800EDA3D4 /* Favorite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Favorite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE068D35294813B800EDA3D4 /* Favorite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Favorite.h; sourceTree = "<group>"; };
 		CE068D4E294814A100EDA3D4 /* FavoriteEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteEntity.swift; sourceTree = "<group>"; };
@@ -217,10 +217,10 @@
 			);
 			mainGroup = CE068D28294813B800EDA3D4;
 			packageReferences = (
-				CE068D3C2948142400EDA3D4 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				CE068D3C2948142400EDA3D4 /* XCRemoteSwiftPackageReference "realm-swift.git" */,
 				CE068D412948143600EDA3D4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				CE068D442948144B00EDA3D4 /* XCRemoteSwiftPackageReference "SDWebImage" */,
-				CE068DBB29483A5200EDA3D4 /* XCRemoteSwiftPackageReference "Modularization-Core-Package" */,
+				CE068DBB29483A5200EDA3D4 /* XCRemoteSwiftPackageReference "Modularization-Core-Package.git" */,
 			);
 			productRefGroup = CE068D33294813B800EDA3D4 /* Products */;
 			projectDirPath = "";
@@ -489,7 +489,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CE068D3C2948142400EDA3D4 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+		CE068D3C2948142400EDA3D4 /* XCRemoteSwiftPackageReference "realm-swift.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift.git";
 			requirement = {
@@ -513,7 +513,7 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		CE068DBB29483A5200EDA3D4 /* XCRemoteSwiftPackageReference "Modularization-Core-Package" */ = {
+		CE068DBB29483A5200EDA3D4 /* XCRemoteSwiftPackageReference "Modularization-Core-Package.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/aldidwiki/Modularization-Core-Package.git";
 			requirement = {
@@ -526,17 +526,17 @@
 /* Begin XCSwiftPackageProductDependency section */
 		CE068D3D2948142400EDA3D4 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CE068D3C2948142400EDA3D4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			package = CE068D3C2948142400EDA3D4 /* XCRemoteSwiftPackageReference "realm-swift.git" */;
 			productName = Realm;
 		};
 		CE068D3F2948142400EDA3D4 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CE068D3C2948142400EDA3D4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			package = CE068D3C2948142400EDA3D4 /* XCRemoteSwiftPackageReference "realm-swift.git" */;
 			productName = RealmSwift;
 		};
 		CE068DBC29483A5200EDA3D4 /* CorePackage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CE068DBB29483A5200EDA3D4 /* XCRemoteSwiftPackageReference "Modularization-Core-Package" */;
+			package = CE068DBB29483A5200EDA3D4 /* XCRemoteSwiftPackageReference "Modularization-Core-Package.git" */;
 			productName = CorePackage;
 		};
 /* End XCSwiftPackageProductDependency section */

@@ -9,5 +9,5 @@ target 'TMDb' do
 end
  
 target 'Favorite' do
-  project '../Favorite/Favorite'
+  project 'Favorite/Favorite'
 end
