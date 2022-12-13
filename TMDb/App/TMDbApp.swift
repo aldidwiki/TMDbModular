@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Favorite
+import FavoritePackage
 
 @main
 struct TMDbApp: App {

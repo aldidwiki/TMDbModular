@@ -7,7 +7,3 @@ workspace 'Modularization'
 target 'TMDb' do
   # Pods for TMDb
 end
- 
-target 'Favorite' do
-  project 'Favorite/Favorite'
-end

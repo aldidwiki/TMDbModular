@@ -14,8 +14,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/aldidwiki/Modularization-Core-Package.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "945c3f04a4ad909c9c0fec4d7758fae00006386d"
+        "revision" : "945c3f04a4ad909c9c0fec4d7758fae00006386d",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "modularization-favorite-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aldidwiki/Modularization-Favorite-Package.git",
+      "state" : {
+        "revision" : "d87ba9a3ac75cb686961b289356a7d32b74d8cf0",
+        "version" : "1.0.0"
       }
     },
     {

@@ -5,7 +5,7 @@
 //  Created by Aldi Dwiki Prahasta on 24/11/22.
 //
 
-import Favorite
+import FavoritePackage
 
 final class Mapper {
     static func mapMovieResponseModelsToDomains (

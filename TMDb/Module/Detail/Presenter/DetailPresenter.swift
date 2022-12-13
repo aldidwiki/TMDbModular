@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Combine
-import Favorite
+import FavoritePackage
 
 class DetailPresenter: ObservableObject {
     private var cancellable: Set<AnyCancellable> = []

@@ -7,7 +7,7 @@
 
 import SwiftUI
 import SDWebImageSwiftUI
-import Favorite
+import FavoritePackage
 
 struct DetailView: View {
     @ObservedObject var presenter: DetailPresenter

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Favorite
+import FavoritePackage
 
 class FavoriteRouter {
     func makeDetailView(movieId: Int) -> some View {

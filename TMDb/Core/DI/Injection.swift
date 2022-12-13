@@ -7,7 +7,8 @@
 
 import CorePackage
 import RealmSwift
-import Favorite
+import FavoritePackage
+import Foundation
 
 final class Injection: NSObject {
     private func provideRepository() -> TMDbRepositoryProtocol {
