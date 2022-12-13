@@ -1,4 +1,5 @@
-workflows:  ios-submission-expert:
+workflows:  
+  ios-submission-expert:
     name: iOS Submission Expert
     environment:
       xcode: latest
