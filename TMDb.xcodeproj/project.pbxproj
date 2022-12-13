@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		213D1274F78944B225CACA7F /* Pods_TMDb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7AA0B06AD786507F01DF66 /* Pods_TMDb.framework */; };
 		CE068DBA29483A2C00EDA3D4 /* CorePackage in Frameworks */ = {isa = PBXBuildFile; productRef = CE068DB929483A2C00EDA3D4 /* CorePackage */; };
 		CE182AFA292F717200B5C857 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE182AF9292F717200B5C857 /* ProfileView.swift */; };
 		CE182AFC292F7F7000B5C857 /* MovieDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE182AFB292F7F7000B5C857 /* MovieDetailResponse.swift */; };
@@ -67,11 +66,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A7AA0B06AD786507F01DF66 /* Pods_TMDb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMDb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61DF9F884ECD4FC6D9A4C561 /* Pods-TMDb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDb.debug.xcconfig"; path = "Target Support Files/Pods-TMDb/Pods-TMDb.debug.xcconfig"; sourceTree = "<group>"; };
-		CE068D472948145400EDA3D4 /* Favorite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Favorite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE068D6A2948158F00EDA3D4 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE068D9F294820D700EDA3D4 /* Detail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Detail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE182AF9292F717200B5C857 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		CE182AFB292F7F7000B5C857 /* MovieDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailResponse.swift; sourceTree = "<group>"; };
 		CE182AFD292F813800B5C857 /* MovieDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailModel.swift; sourceTree = "<group>"; };
@@ -136,7 +131,6 @@
 				CE068DBA29483A2C00EDA3D4 /* CorePackage in Frameworks */,
 				CE9E30E929306F8F001BFB57 /* RealmSwift in Frameworks */,
 				CEC654F9292F54C8007B393A /* SDWebImage in Frameworks */,
-				213D1274F78944B225CACA7F /* Pods_TMDb.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,10 +140,6 @@
 		7C77B88D6AB5A8DC60E7CDDE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE068D9F294820D700EDA3D4 /* Detail.framework */,
-				CE068D6A2948158F00EDA3D4 /* Core.framework */,
-				CE068D472948145400EDA3D4 /* Favorite.framework */,
-				0A7AA0B06AD786507F01DF66 /* Pods_TMDb.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
